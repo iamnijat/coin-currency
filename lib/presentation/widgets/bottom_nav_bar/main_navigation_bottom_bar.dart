@@ -8,7 +8,7 @@ class MainNavigationBottomBar extends StatelessWidget {
     return SafeArea(
         bottom: false,
         child: AspectRatio(
-            aspectRatio: 374 / 100,
+            aspectRatio: 374 / 90,
             child: Stack(alignment: Alignment.center, children: [
               Container(
                   decoration: const BoxDecoration(
