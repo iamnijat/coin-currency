@@ -30,8 +30,7 @@ class AppConfigs {
       SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
         statusBarColor: AppPalette.transparentColor,
       ));
-      SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual,
-          overlays: [SystemUiOverlay.top]);
+      WidgetsFlutterBinding.ensureInitialized();
 
       SystemChrome.setPreferredOrientations(
               [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
