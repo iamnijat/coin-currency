@@ -19,9 +19,12 @@ class ParseCurrenciesXMLData {
     const _ignoredValuteList = ["XPD", "SDR", "XAU", "XAG", "XPT"];
     _currencies = _elements.map((element) {
       final _code = element.getAttribute('Code');
+      // ignore: deprecated_member_use
       final _name = element.findElements('Name').first.text;
       final _index = _name.indexOf(" ");
+      // ignore: deprecated_member_use
       final _nominal = element.findElements('Nominal').first.text;
+      // ignore: deprecated_member_use
       final _value = element.findElements('Value').first.text;
       return CurrencyViewModel(
           code: _code,

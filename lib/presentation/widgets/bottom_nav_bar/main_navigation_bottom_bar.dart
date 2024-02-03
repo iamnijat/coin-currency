@@ -19,9 +19,9 @@ class MainNavigationBottomBar extends StatelessWidget {
                         left: 8.w,
                         right: 8.w,
                         bottom: MediaQuery.of(context).viewPadding.bottom),
-                    child: Row(
+                    child: const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const <Widget>[
+                      children: <Widget>[
                         BottomBarItem(icon: Icons.calculate, index: 0),
                         BottomBarItem(icon: Icons.history, index: 1),
                         BottomBarItem(icon: Icons.language_rounded, index: 2),
