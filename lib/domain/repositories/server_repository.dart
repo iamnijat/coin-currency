@@ -1,16 +1,18 @@
 import 'package:fimber/fimber.dart';
+import 'package:http/http.dart';
 
 import '../../data/utils/parse_currencies_xml_data.dart';
-import 'package:http/http.dart';
+import 'package:http/http.dart' as http;
 import '../../config/constants/strings.dart';
 import '../../data/models/view_model/currency_model/currency_view_model.dart';
 
 class ServerRepository {
-  final cl = Client();
 
   //Get Currencies Data
   Future<List<CurrencyViewModel>> getCurrencies(String? date) async {
-    final _response = await cl.get(_getParsedUri("/$date.xml"));
+    final _response = await http.get(_getParsedUri("/$date.xml"));
+
+
 
     if (_response.successResponse) {
       Fimber.e('Fetched currency items successfully 🤑');
