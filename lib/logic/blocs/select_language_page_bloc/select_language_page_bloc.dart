@@ -2,7 +2,7 @@ import 'package:bloc/bloc.dart';
 import 'package:coin_currency/logic/providers/app_language_provider.dart';
 import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 import 'package:get_it/get_it.dart';
 import '../../../data/models/view_model/language_model/language_selection_model.dart';
 import '../../../data/utils/fetch_languages_data_utility.dart';

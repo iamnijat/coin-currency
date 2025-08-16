@@ -4,7 +4,7 @@ import 'package:fimber/fimber.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 
 import '../../../data/models/view_model/intro_page_slider_model/intro_page_slider_model.dart';
 import '../../../data/utils/intro_page_slider_data_utility.dart';

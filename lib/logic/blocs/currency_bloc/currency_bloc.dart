@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
 import 'package:intl/intl.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 import '../../../data/models/view_model/currency_model/currency_view_model.dart';
 import '../../../data/utils/conversion_currency_utility.dart';
 import '../../../domain/repositories/server_repository.dart';

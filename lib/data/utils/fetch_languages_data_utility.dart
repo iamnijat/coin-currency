@@ -1,5 +1,5 @@
 import 'package:coin_currency/data/models/view_model/language_model/language_selection_model.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 import '../../config/constants/assets.dart';
 
 class FetchLanguagesDataUtility {

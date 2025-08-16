@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 import '../../presentation/dialogs/index.dart';
 
 void showExceedInputLimitInfoDialog({

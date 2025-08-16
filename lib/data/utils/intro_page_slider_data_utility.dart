@@ -1,6 +1,6 @@
 import '../../config/constants/assets.dart';
 import '../models/view_model/intro_page_slider_model/intro_page_slider_model.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 
 class IntroPageSliderDataUtility {
   static List<IntroPageSliderModel> getSliderItems(

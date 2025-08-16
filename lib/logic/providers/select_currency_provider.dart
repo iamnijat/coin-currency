@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:coin_currency/logic/blocs/currency_bloc/currency_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 import '../../data/models/view_model/currency_model/currency_selection_model.dart';
 import '../../data/models/view_model/currency_model/currency_view_model.dart';
 import '../../data/utils/fetch_currencies_for_conversion_modal.dart';

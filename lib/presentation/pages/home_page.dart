@@ -43,10 +43,9 @@ class _HomePageBody extends StatelessWidget {
               return const LoadingIndicator();
             })),
       ),
-
       extendBody: false,
-      extendBodyBehindAppBar: true, // Needed to show content under appbar
-      bottomNavigationBar: const MainNavigationBottomBar(),
+      extendBodyBehindAppBar: true,
+      bottomNavigationBar: const SafeArea(child: MainNavigationBottomBar()),
     );
   }
 }

@@ -37,6 +37,10 @@ class IntroSliderItem extends StatelessWidget {
         ),
         const Spacer(),
         buildSlideDots(context),
+        Padding(
+          padding: EdgeInsets.only(
+              bottom: MediaQuery.of(context).padding.bottom + 16),
+        ),
       ],
     );
   }

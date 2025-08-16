@@ -1,7 +1,7 @@
 import 'package:coin_currency/config/constants/palette.dart';
 import 'package:coin_currency/logic/blocs/currency_bloc/currency_bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 
 import '../../presentation/bottom_modals/index.dart';
 

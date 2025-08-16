@@ -2,7 +2,7 @@ import 'package:coin_currency/data/utils/check_currencies_codes_localization.dar
 
 import '../models/view_model/currency_model/currency_selection_model.dart';
 import '../models/view_model/currency_model/currency_view_model.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:coin_currency/l10n/app_localizations.dart';
 
 class FetchCurrenciesForConversionModal {
   static List<CurrencySelectionModel> fetchCurrencies(
